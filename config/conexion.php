@@ -1,10 +1,16 @@
 <?php
 
 // Database configuration
-$host = 'localhost';
-$dbname = 'events_db';
-$user = 'root';
-$pass = '';
+$host = '134.0.10.161';
+$dbname = 'eventsdb';
+$user = 'myexamenik08';
+$pass = 'w01XtAgb';
+
+// Database configuration
+// $host = 'localhost';
+// $dbname = 'events_db';
+// $user = 'root';
+// $pass = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
