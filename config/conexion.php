@@ -1,7 +1,7 @@
 <?php
 
 // Database configuration
-$host = '134.0.10.161';
+$host = 'localhost';
 $dbname = 'eventsdb';
 $user = 'myexamenik08';
 $pass = 'w01XtAgb';
