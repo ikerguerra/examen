@@ -1,7 +1,7 @@
 <?php
 
 // Database configuration
-$host = 'exameniker.es.mialias.net';
+$host = 'localhost';
 $dbname = 'eventsdb';
 $user = 'myexamenik08';
 $pass = 'w01XtAgb';
