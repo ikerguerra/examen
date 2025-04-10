@@ -24,16 +24,16 @@
             <h1 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">Event Management System</h1>
 
             <!-- Search & Filter Bar -->
-            <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 mb-6">
+            <div class="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0 mb-6">
                 <form action="" method="GET"
-                    class="w-full md:w-auto flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+                    class="w-full lg:w-auto flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-4">
                     <input type="hidden" name="view" value="<?php echo $view_mode; ?>">
                     <div class="flex-grow">
                         <input type="text" name="search" placeholder="Search events..."
                             value="<?php echo htmlspecialchars($search_query); ?>"
                             class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-base">
                     </div>
-                    <div class="w-full md:w-auto">
+                    <div class="w-full lg:w-auto">
                         <select name="category"
                             class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-base">
                             <option value="0">All Categories</option>
@@ -46,7 +46,7 @@
                     </div>
                     <div>
                         <button type="submit"
-                            class="w-full md:w-auto px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                            class="w-full lg:w-auto px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
                             <i class="fa fa-search"></i>
                         </button>
                     </div>
